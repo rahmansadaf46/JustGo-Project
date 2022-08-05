@@ -169,13 +169,16 @@ input[type=text] {
     border-radius: 100px;
 }
 
-
+.gender-section{
+    display: flex;
+    // justify-content: space-around;
+}
 .radio-item {
     display: inline-block;
     position: relative;
     padding: 0 6px;
     margin: 10px 0 0;
-
+    margin-left: 8px;
 }
 
 .radio-item input[type='radio'] {
@@ -279,5 +282,11 @@ input[type=text] {
 
     input[type=text] {
         width: 300px;
+    }
+}
+
+@media only screen and (max-width: 413px) {
+    .radio-item {
+        margin-left: -5px;
     }
 }

@@ -108,12 +108,12 @@ function App() {
               <label htmlFor="ritema"><b>Filter by:</b></label> &nbsp;&nbsp;
               <div className="radio-item">
                 <input onClick={() => genderFilter('all')} defaultChecked={gender === 'all'} type="radio" id="ritema" name="ritem" value="ropt1" />
-                <label onClick={() => genderFilter('all')} htmlFor="ritema">All</label>&nbsp;&nbsp;
+                <label onClick={() => genderFilter('all')} htmlFor="ritema">All</label>
               </div>
 
               <div className="radio-item">
                 <input onClick={() => genderFilter('male')} type="radio" id="ritemb" name="ritem" value="ropt2" />
-                <label onClick={() => genderFilter('male')} htmlFor="ritemb">Male</label>&nbsp;&nbsp;
+                <label onClick={() => genderFilter('male')} htmlFor="ritemb">Male</label>
               </div>
 
               <div className="radio-item">
