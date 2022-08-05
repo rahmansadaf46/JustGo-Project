@@ -1,5 +1,3 @@
-// import logo from './logo.svg';
-// import './App.css';
 import { useEffect, useState } from 'react';
 import './App.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
